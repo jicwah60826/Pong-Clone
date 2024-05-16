@@ -5,7 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class UIController : MonoBehaviour
 {
-    // Start is called before the first frame update
+
+    //functions below are called on button click of the UI buttons
     public void PlayGame(int sceneIndex)
     {
         SceneManager.LoadScene(sceneIndex);
